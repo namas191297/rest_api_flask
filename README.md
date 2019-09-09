@@ -10,7 +10,7 @@ Systems that follow the REST paradigm are stateless, meaning that the server doe
 
 REST APIs can use different data formats to  transfer data between the client and the server. In this particular application, we are using the ```JSON``` syntax to transfer the data between client and the server.
 
-**JavaScript Object Notation** is an open-standard file format that uses human-readable text to transmit data objects consisting of attribute–value pairs and array data types. An example can be seen as follows:
+**JavaScript Object Notation** is an open-standard file format that uses human-readable text to transmit data objects consisting of attributeâ€“value pairs and array data types. An example can be seen as follows:
 ```
 {
      "firstName": "John",
@@ -62,7 +62,7 @@ Download or clone the repository in a directory and ```cd``` into folder contain
 
 2. The route accepts only POST requests as some JSON object must be sent to the server so that it can interpret the data from it. If the request type is GET, the server responds with an error:
 
-   ![Get_Response_Error](get_response.png)
+   ![Get_Response_Error](images/get_response.png)
 
 3. In this application, the JSON object that is being sent from the server to the client as a response to the client request, is some sample data that is of the type ```dict``` in python. The code snippet is as follows:
 
@@ -75,11 +75,11 @@ Download or clone the repository in a directory and ```cd``` into folder contain
 
    In order to test this application, you can use a website that can post HTTP requests online. An example is https://reqbin.com/. Enter the url where you want to post the request and add a JSON object in the the content section. The server will receive the JSON object and then return another JSON object to the client.
 
-   ![Response_To_Client](response_to_client.png)
+   ![Response_To_Client](images/response_to_client.png)
 
    The python console displays the data received from the client:
 
-   ![Received_From_Server](json_received_server.png)
+   ![Received_From_Server](images/json_received_server.png)
 
 ## Information about REST APIs
 
